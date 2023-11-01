@@ -7,4 +7,4 @@ def pow(a, b):
     else:
         for _ in range(abs(b)):
             result /= a
-    return "{:.12f}".format(result)
+    return result
